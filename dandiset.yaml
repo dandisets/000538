@@ -22,14 +22,24 @@ assetsSummary:
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Comparing the 1P and 2P Voltage Contrast of JEDI2P and Voltron2_JF525 (2023).
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000538/draft
+citation: Adam Cohen (2023) Comparing the 1P and 2P Voltage Contrast of JEDI2P and
+  Voltron2_JF525 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000538/draft
 contributor:
 - awardNumber: 1 R01 NS 126043-01
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - name: Harvard University
+    schemaKey: Affiliation
+  email: cohen@chemistry.harvard.edu
+  includeInCitation: true
+  name: Adam Cohen
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2023-05-10T16:43:21.402593+00:00'
 description: This dataset demonstrates the voltage contrast of JEDI2P and Voltron2_JF525
   under 1P and 2P illumination.
