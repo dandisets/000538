@@ -31,7 +31,8 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 - affiliation:
-  - name: Harvard University
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
     schemaKey: Affiliation
   email: cohen@chemistry.harvard.edu
   includeInCitation: true
