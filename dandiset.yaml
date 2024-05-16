@@ -22,9 +22,46 @@ assetsSummary:
     name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Cohen, Adam (2024) Comparing the 1P and 2P Voltage Contrast of JEDI2P and
-  Voltron2_JF525 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000538/draft
+citation: Brooks, F. Phil; Davis, Hunter C.; Cohen, Adam (2024) Comparing the 1P and
+  2P Voltage Contrast of JEDI2P and Voltron2_JF525 (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000538/draft
 contributor:
+- identifier: 0000-0002-4334-8192
+  includeInCitation: true
+  name: Brooks, F. Phil
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Investigation
+  - dcite:ProjectMember
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Davis, Hunter C.
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:ProjectMember
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard University
+    schemaKey: Affiliation
+  email: cohen@chemistry.harvard.edu
+  identifier: 0000-0002-8699-2404
+  includeInCitation: true
+  name: Cohen, Adam
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+  url: https://cohenweb.rc.fas.harvard.edu/
 - awardNumber: 1 R01 NS 126043-01
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
@@ -32,17 +69,6 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- affiliation:
-  - identifier: https://ror.org/03vek6s52
-    name: Harvard University
-    schemaKey: Affiliation
-  email: cohen@chemistry.harvard.edu
-  includeInCitation: true
-  name: Cohen, Adam
-  roleName:
-  - dcite:ContactPerson
-  - dcite:Author
-  schemaKey: Person
 dateCreated: '2023-05-10T16:43:21.402593+00:00'
 description: This dataset demonstrates the voltage contrast of JEDI2P and Voltron2_JF525
   under 1P and 2P illumination.
@@ -56,7 +82,14 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000538/versions/draft/assets/
 name: Comparing the 1P and 2P Voltage Contrast of JEDI2P and Voltron2_JF525
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1101/2023.11.18.567441
+  name: Optical constraints on two-photon voltage imaging
+  relation: dcite:IsPublishedIn
+  repository: BioRxiv
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1101/2023.11.18.567441
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
